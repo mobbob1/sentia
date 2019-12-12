@@ -32,7 +32,7 @@ disk_format() {
 	yum install wget -y
 	for ((j=1;j<=3;j++))
 	do
-		wget https://raw.githubusercontent.com/sethbilly/azure-wordpress-mysql-cluster/master/shared_scripts/vm-disk-utils.sh 
+		wget https://raw.githubusercontent.com/mobbob1/sentia/master/shared_scripts/vm-disk-utils.sh 
 		if [[ -f /tmp/vm-disk-utils.sh ]]; then
 			bash /tmp/vm-disk-utils.sh -b /data/ -s
 			if [[ $? -eq 0 ]]; then
