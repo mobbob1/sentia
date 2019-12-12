@@ -1,5 +1,5 @@
-$GitBasePath = '/Users/billy/workspace/dev/demos/AzureWordPressCluster'
+$GitBasePath = 'D:\sentiaproject\assessment\sentia\azure-wordpress-mysql-cluster'
 
-New-AzResourceGroupDeployment -ResourceGroupName  WordPressClusterGroup `
+New-AzResourceGroupDeployment -ResourceGroupName  SentiaAssessmentRG `
     -TemplateFile "$GitBasePath/azuredeploy.json" `
     -TemplateParameterFile "$GitBasePath/azuredeploy.parameters.json"
