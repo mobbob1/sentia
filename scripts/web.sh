@@ -55,7 +55,8 @@ disk_format() {
 
 create_test_page() {
 #create test php page
-    cat > /var/www/html/info.php <<-EOF
+    cat > /var/www/html/info.php 
+    <<-EOF
     <?php
         phpinfo();
     ?>

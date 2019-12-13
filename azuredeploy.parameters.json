@@ -8,7 +8,7 @@
       "adminPassword": {
         "reference":{
           "keyVault": {
-            "id": "/subscriptions/17e3256b-ea83-46a6-abd6-adb8731d3c5b/resourcegroups/SentiaAssessmentRG/providers/Microsoft.KeyVault/vaults/sentiaKV"
+            "id": "/subscriptions/17e3256b-ea83-46a6-abd6-adb8731d3c5b/resourceGroups/SentiaAssessmentRG/providers/Microsoft.KeyVault/vaults/sentiaKV"
           },
           "secretName": "adminPassword"
         }
@@ -16,7 +16,7 @@
       "mysqlPassword": {
         "reference": {
           "keyVault": {
-            "id": "/subscriptions/17e3256b-ea83-46a6-abd6-adb8731d3c5b/resourcegroups/SentiaAssessmentRG/providers/Microsoft.KeyVault/vaults/sentiaKV"
+            "id": "/subscriptions/17e3256b-ea83-46a6-abd6-adb8731d3c5b/resourceGroups/SentiaAssessmentRG/providers/Microsoft.KeyVault/vaults/sentiaKV"
           },
           "secretName": "mysqlPassword"
         }
